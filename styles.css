@@ -13,7 +13,7 @@ body {
     background: white;
     border-radius: 10px;
     overflow: hidden;
-    border: 1px solid #ddd;
+    border: 0px solid #ddd;
 }
 
 .post-header {
@@ -34,6 +34,9 @@ body {
     margin-right: 5px;
 }
 
+.perfil p {
+    margin: 0
+}
 .menu i {
     font-size: 18px;
 }
@@ -46,7 +49,6 @@ body {
 .post-icons {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
 }
 
 .iconos-left, .icono-right {
